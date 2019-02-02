@@ -1,6 +1,6 @@
 ## Weather Forecast Tool
 
-A small project used to experiment with JSON data and interact with web APIs. The script will fetch the weather forecast for a given IP address using the DarkSky weather API. The location of the given IP will be fetched using ipinfo.io.
+A small project used to experiment with JSON data and interact with web APIs. The script will fetch the weather forecast for a given IP address using the DarkSky weather API (https://darksky.net) . The location of the given IP will be fetched using https://ipinfo.io/.
 
 ## Requirements
 
