@@ -6,7 +6,7 @@ A small project used to experiment with JSON data and interact with web APIs. Th
 
 The script uses `jq`, a JSON processor from https://stedolan.github.io/jq/. The GNU version of `date`is needed for epoch time conversion, along with `curl`. Alas, Mac OS uses the BSD version of date which will not work.
 
-Tested on Ubuntu Linux 17.04.
+Tested on Ubuntu Linux 17.10.
 
 ## Running
 
