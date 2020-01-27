@@ -1,10 +1,10 @@
 ## Weather Forecast Tool
 
-A small project used to experiment with JSON data and interact with web APIs. The script will fetch the weather forecast for a given IP address using the DarkSky weather API (https://darksky.net) . The location of the given IP will be fetched using https://ipinfo.io/.
+A small project used to experiment with JSON data and interact with web APIs. The script will fetch the weather forecast for a given IP address using the DarkSky weather API (https://darksky.net). The location of the given IP will be fetched using https://ipinfo.io/.
 
 ## Requirements
 
-The script uses `jq`, a JSON processor from https://stedolan.github.io/jq/. The GNU version of `date`is needed for epoch time conversion, along with `curl`. Alas, Mac OS uses the BSD version of date which will not work.
+The script uses `jq`, a JSON processor from https://stedolan.github.io/jq/. The GNU version of `date` is needed for epoch time conversion, along with `curl`. Alas, Mac OS uses the BSD version of date which will not work.
 
 Tested on Ubuntu Linux 17.10.
 
@@ -35,7 +35,3 @@ Weather forecast for 128.138.129.2
 ```
 
 Finally, running with `-h` will show basic usage info.
-
-## Assumptions
-
-This was tested on Ubuntu Linux 17.10.
